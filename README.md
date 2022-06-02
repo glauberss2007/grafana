@@ -30,6 +30,28 @@ https://grafana.com/docs/grafana/latest/datasources/
 
 1. Billing Indicator - Statistics
 
+Query examples:
+
+![image](https://user-images.githubusercontent.com/22028539/171682101-d0f8c8fd-5701-4ae5-9b06-0cc580513df6.png)
+
+```
+SELECT UNIX_TIMESTAMP(data_venda) as `time`,
+quantidade_vendida as QuantidadeVendida
+FROM vendas
+WHERE data_venda BETWEEN FROM_UNIXTIME(1618162852) AND FROM_UNIXTIME(1620754852)
+ORDER BY data_venda ASC
+```
+PS: as `time` is need when using time series mode in grafana
+
+
+
+```
+SELECT *
+FROM vendas v
+INNER JOIN produto p 
+ON p.produto_id = v.produto_id
+```
+
 2. Profit and Expressions Indicator
 
 3. Quantity Sold Indicator - Time Series
