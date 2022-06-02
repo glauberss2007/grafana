@@ -1,6 +1,9 @@
 # Grafana
 Project from grafana for BI training.
 
+![image](https://user-images.githubusercontent.com/22028539/171647898-2f73e735-40b1-47d0-9211-5d6de2932199.png)
+
+
 ## Installation
 
 MySQL installation will be used to execute the examples.
