@@ -1,9 +1,27 @@
-# grafana
+# Grafana
 Project from grafana for BI training.
 
 ## Installation
 
+MySQL installation will be used to execute the examples.
+
+You can use this troubleshooting [XAMP](https://www.apachefriends.org/download.html) or configure a high available cluster [MySQL](https://blogs.oracle.com/mysql/post/mysql-database-service-with-high-availability).
+
+Import database ql.txt into MySQL. It contains tables that will be used in this project.
+
 ## Introduction
+
+1. Introduction
+
+https://grafana.com/docs/grafana/latest/introduction/
+
+2. Dashboard
+
+https://grafana.com/grafana/dashboards/
+
+3. DataSource and panels
+
+https://grafana.com/docs/grafana/latest/datasources/
 
 ## Indicators
 
@@ -55,7 +73,7 @@ Project from grafana for BI training.
 
 25. Repeating Panels by Variables
 
-2617. Internal and external links
+26. Internal and external links
 
 27. Exporting and Importing Dashboards
 
